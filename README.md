@@ -92,7 +92,26 @@ Ce qui imposé par contre c'est la façon dont on peut appeler les deux commande
   * avec l'option `-c` ou `--coder` on peut choisir l'encodage; par défaut on
     prendra `english.coder` 
 
----
+
+## Artefacts
+
+vous trouverez dans ce repo les fichiers suivants
+
+* `selfcoded*.txt`  
+  des petits exemples de texte, a priori destinés à être encodés avec leur
+  propre fréquence d'apparition - c'est plus simple pour illustrer les exemples
+  de la littérature
+* `selfcoded*.ref`  
+  le résultat attendu pour ces deux fichiers, pour vous permettre de valider
+  votre résultat au moins sur ces deux entrées
+* `english.txt` - [obtenu
+  ici](https://archive.org/stream/TheultimateHitchhikersGuide/The%20Hitchhiker%27s%20Guide%20To%20The%20Galaxy_djvu.txt)  
+  est le contenu d'un livre célèbre (la réponse est 42, mais quelle est la
+  question ?), qu'on va utiliser comme étalon représentatif de la fréquence
+  d'apparition des caractères, y compris de ponctuation et autres newline
+* `sample*.txt`  
+  d'autres exemples de texte, plutôt destinés à être encodés avec un coder issue
+  de `english.txt`
 
 ## Exemples
 
@@ -195,7 +214,8 @@ de la librairie standard
 * `pathlib` et notamment la classe `Path` pour les calculs sur les extensions de
   noms de fichier
 * et peut-être aussi, quoique plus optionnel, le module `heapq` qui implémente
-  de manière efficace une collection d'objets qui reste toujours triée lorsqu'on la manipule avec `heappush()` et `heappop()`
+  de manière efficace une collection d'objets qui reste toujours triée lorsqu'on
+  la manipule avec `heappush()` et `heappop()`
 
 ## Bonus: sortie en binaire
 
@@ -208,3 +228,8 @@ Pour les fichiers encodés, on a le choix:
   dans un fichier binaire, qui permet d'occuper 8 fois moins de place environ,
   puisqu'on peut bien sûr ranger 8 bits dans chaque octet, au lieu de 1 seul bit
   par octet dans la première approche
+
+Cette partie est relativement difficile, mais conseillée à ceux d'entre vous qui
+sont arrivés en début d'année avec déjà un bon niveau en Python; même en
+l'absence de résultat fonctionnel, n'hésitez pas à indiquer les voies envisagées
+et les problèmes rencontrés.
