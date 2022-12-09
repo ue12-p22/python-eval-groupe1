@@ -98,12 +98,15 @@ Ce qui imposé par contre c'est la façon dont on peut appeler les deux commande
 vous trouverez dans ce repo les fichiers suivants
 
 * `selfcoded*.txt`  
-  des petits exemples de texte, a priori destinés à être encodés avec leur
-  propre fréquence d'apparition - c'est plus simple pour illustrer les exemples
+  deux petits exemples de texte, a priori destinés à être encodés avec leur
+  propre fréquence d'apparition, c'est comme cela que sont illustrés les exemples
   de la littérature
 * `selfcoded*.ref`  
   le résultat attendu pour ces deux fichiers, pour vous permettre de valider
-  votre résultat au moins sur ces deux entrées
+  votre résultat au moins sur ces deux entrées  
+  *notez bien* que le résultat n'est pas forcément canonique, lorsque deux
+  occurences se produisent avec la même fréquence; ce sont des choses dont on
+  peut sans souci discuter par mail
 * `english.txt` - [obtenu
   ici](https://archive.org/stream/TheultimateHitchhikersGuide/The%20Hitchhiker%27s%20Guide%20To%20The%20Galaxy_djvu.txt)  
   est le contenu d'un livre célèbre (la réponse est 42, mais quelle est la
@@ -192,17 +195,6 @@ cmp sample-01.txt sample-01.loop
 (La dernière de ces commandes, `cmp`, est un utilitaire très simple qui compare
 les deux fichiers et s'assure qu'ils sont identiques)
 
-
-## Modalités
-
-Vous rendez votre devoir dans le repo dans votre espace github qui s'appelle
-`ap-eval`.
-
-On doit pouvoir utiliser votre code directement après clonage, pensez à bien
-mettre les fichiers de données dans votre repo également
-
-La date limite sera précisée par mail
-
 ## Outils utiles
 
 Vous pourriez avoir envie d'utiliser les modules suivants, qui font tous partie
@@ -233,3 +225,26 @@ Cette partie est relativement difficile, mais conseillée à ceux d'entre vous q
 sont arrivés en début d'année avec déjà un bon niveau en Python; même en
 l'absence de résultat fonctionnel, n'hésitez pas à indiquer les voies envisagées
 et les problèmes rencontrés.
+
+## Modalités de rendu
+
+Vous rendez votre devoir dans le repo dans votre espace github qui s'appelle
+`ap-eval`.
+
+On doit pouvoir utiliser votre code directement après clonage, pensez à bien
+mettre les fichiers de données dans votre repo également
+
+La date limite sera précisée par mail
+
+## Collaborations
+
+Vous avez tout à fait le droit d'aller trouver de l'inspiration sur Internet, ou
+de discuter entre vous de vos idées pour aborder le problème.
+
+Par contre on vous demande un travail **personnel** et  j'insiste bien que
+chacun doit **écrire son propre code** et non pas se contenter de paraphraser
+vaguement un bout de code pompé tel quel, en comprenant juste vaguement ce que
+ça fait. Vous devez être capable d'expliquer chaque étape, et le montrer dans
+les commentaires; sachez qu'on repère très facilement ce type de plagiat, même
+modulo un changement de noms de variables, que ce soit entre vous ou bien depuis
+les articles que vous trouverez en deux clics sur Internet.
