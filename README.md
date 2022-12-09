@@ -197,6 +197,13 @@ les deux fichiers et s'assure qu'ils sont identiques)
 
 ## Outils utiles
 
+Je vous demande de vous limiter aux librairies qui font partie de [la librairie
+standard Python](https://docs.python.org/3.10/library/); il est notamment
+interdit d'utiliser une librairie qui ferait le gros du travail pour nous -
+comme on en trouve par dizaines si on cherche `huffman` dans `pypi.org`. Ça
+n'est pas vraiment l'esprit bien entendu (mais par contre ça peut le cas échéant
+rendre service pour tester votre code).
+
 Vous pourriez avoir envie d'utiliser les modules suivants, qui font tous partie
 de la librairie standard
 
