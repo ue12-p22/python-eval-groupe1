@@ -236,7 +236,7 @@ et les problèmes rencontrés.
 ## Modalités de rendu
 
 Vous rendez votre devoir dans le repo dans votre espace github qui s'appelle
-`ap-eval`.
+`ap-eval`, que vous créez comme privé et auquel vous invitez votre prof.
 
 On doit pouvoir utiliser votre code directement après clonage, pensez à bien
 mettre les fichiers de données dans votre repo également
