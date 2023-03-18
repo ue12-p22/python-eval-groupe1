@@ -32,7 +32,7 @@ On recommande évidemment de lire l'énoncé jusqu'au bout avant de se lancer.
 
 ## Le sujet
 
-On vous invite à implémenter l'algorithme dit du *codage de Hufmann*. On ne va
+On vous invite à implémenter l'algorithme dit du *codage de Huffman*. On ne va
 pas le décrire ici car il est abondamment décrit dans la littérature, mais en
 deux mots il s'agit de
 * partir de la fréquence d'apparition des caractères dans un certain langage,
@@ -48,13 +48,13 @@ comme un compresseur.
 
 On vous demande d'écrire deux commandes python, que l'on peut donc appeler
 depuis le terminal:
-* `hufmann-analyze.py` qui doit
+* `huffman-analyze.py` qui doit
   * lire un fichier dit de vocabulaire, typiquement un texte assez long et
     représentatif du langage,
   * l'utiliser pour élaborer un codage,
   * et sauver dans un fichier - on choisit pour fixer les idées de lui donner
     l'extension `.coder` - toutes les informations relatives à ce codage
-* `hufmann.py` qui permet ensuite de
+* `huffman.py` qui permet ensuite de
   * relire le fichier où on a sauvé le codage
   * et l'utiliser pour encoder ou décoder un contenu textuel ou binaire
 
